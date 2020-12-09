@@ -1,11 +1,17 @@
-# Sanity Blogging Content Studio
+# Sanity Check
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This repo was created as a proof of concept to test Sanity Studio as a CMS for Blue Bottle preparation guides.
 
-Now you can do the following things:
+## Install dependencies
+`npm install`
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out the example frontend: [React/Next.js](https://github.com/sanity-io/tutorial-sanity-blog-react-next)
-- [Read the blog post about this template](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## Run Sanity Studio locally
+`npm start`
+
+## Deploy
+Our Sanity Studio instance lives at [https://bluebottlecoffee.sanity.studio/](https://bluebottlecoffee.sanity.studio/)
+
+`sanity deploy`
+
+## For more information
+See https://www.sanity.io/docs/sanity-studio
