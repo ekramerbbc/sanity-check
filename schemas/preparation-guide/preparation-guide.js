@@ -90,32 +90,7 @@ export default {
     {
       name: 'footer',
       title: 'Footer',
-      type: 'object',
-      fields: [
-        {
-          name: 'image',
-          title: 'Image',
-          type: 'image',
-          options: {
-            hotspot: true,
-          }
-        },
-        {
-          name: 'copy',
-          title: 'Copy',
-          type: 'string',
-        },
-        {
-          name: 'cta',
-          title: 'Call To Action',
-          type: 'string',
-        },
-        {
-          name: 'link',
-          title: 'Link',
-          type: 'url',
-        }
-      ]
+      type: 'banner'
     },
   ],
   preview: {

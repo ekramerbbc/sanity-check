@@ -5,6 +5,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // We import object and document schemas
+import banner from './banner'
 import blockContent from './blockContent'
 import equipment from './preparation-guide/equipment'
 import ingredient from './preparation-guide/ingredient'
@@ -28,6 +29,7 @@ export default createSchema({
     recommendedProduct,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
+    banner,
     blockContent,
     meta,
     step,
