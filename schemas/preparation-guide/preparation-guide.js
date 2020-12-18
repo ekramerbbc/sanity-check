@@ -95,7 +95,7 @@ export default {
   ],
   preview: {
     select: {
-      title: 'name',
+      title: 'name.en',
       media: 'indexImage',
     },
   },
