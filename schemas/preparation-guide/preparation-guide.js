@@ -11,7 +11,7 @@ export default {
     {
       name: 'name',
       title: 'Name',
-      type: 'string',
+      type: 'localizedString',
     },
     {
       name: 'slug',
@@ -46,7 +46,7 @@ export default {
     {
       name: 'summary',
       title: 'Summary',
-      type: 'string',
+      type: 'localizedString',
     },
     {
       name: 'vimeoId',
